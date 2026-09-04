@@ -1,25 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VHVNHMYGN3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VHVNHMYGN3');
-</script>
-  <script async src="https://arc.io/widget.min.js#L1SfLEWE"></script>
-  <title>Redirect Page</title>
-  <script>
-    window.onload = function() {
-      window.location.href = "/static/"; // Replace with your desired URL
-    };
-  </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=./static/index.html">
+    <title>Loading...</title>
+    <script>
+        window.location.replace("./static/index.html");
+    </script>
 </head>
-<body>
-  <h1>Redirecting...</h1>
-  <p>If you are not redirected, <a href="/static/">click here</a>.</p>
+<body style="background-color: #0f0f12;">
+    <p style="color: #fff; font-family: sans-serif; text-align: center; margin-top: 20%;">Loading proxy environment...</p>
 </body>
 </html>
